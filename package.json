@@ -1,0 +1,19 @@
+{
+  "name": "solid-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@inrupt/solid-client": "^1.23.1",
+    "@inrupt/solid-client-authn-browser": "^2.3.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}

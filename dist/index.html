@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accesso al tuo POD Solid</title>
+  <script src="/index.4d6bcbeb.js" defer=""></script>
+</head>
+<body>
+  <h1>Accesso al tuo POD Solid</h1>
+  
+  <div id="loginSection">
+    <h2>Accedi</h2>
+    <label for="webId">Inserisci il tuo WebID:</label>
+    <input type="text" id="webId" placeholder="utente.solidcommunity.net" required="">
+    <button id="loginButton">Accedi</button>
+  </div>
+
+  <div id="userSection" style="display: none">
+    <h2>File nel tuo POD</h2>
+    <ul id="fileList"></ul>
+  </div>
+
+  <button id="logoutButton" style="display: none">Esci</button>
+
+  <div id="accessRequestSection" style="display: none">
+    <h2>Richiedi accesso a un file</h2>
+    <label for="fileUrl">Inserisci l'URL del file al quale desideri accedere:</label>
+    <input type="text" id="fileUrl" placeholder="https://angsanchez.solidcommunity.net/public/smart-city-demo.ttl" required="">
+    <button id="requestAccessButton">Richiedi Accesso</button>
+  </div>
+
+  <div id="statusMessage" style="display: none">
+    <p></p>
+  </div>
+
+  <div id="requestsSection" style="display: none">
+    <h2>Le tue richieste di accesso</h2>
+    <ul id="requestsList"></ul>
+  </div>
+  
+</body>
+</html>
